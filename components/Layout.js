@@ -12,10 +12,6 @@ const Layout = ({ children, title }) => (
   <>
     <Head>
       <title>Next Portfolio{title && `- ${title}`}</title>
-      <link
-        rel='stylesheet'
-        href='//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css'
-      />
     </Head>
     <main className='root'>
       <header>
@@ -75,14 +71,6 @@ const Layout = ({ children, title }) => (
           padding: 1rem 0;
           text-align: center;
           width: 100%;
-        }
-      `}</style>
-      <style global jsx>{`
-        body {
-          box-sizing: border-box;
-          margin: 0;
-          font-size: 110%;
-          background: lightgrey;
         }
       `}</style>
     </main>
