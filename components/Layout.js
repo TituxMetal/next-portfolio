@@ -58,7 +58,7 @@ const Layout = ({ children, title }) => (
           color: lightgrey;
         }
         section {
-          width: 80%;
+          width: 70vw;
         }
         section h1 {
           text-align: center;

@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 const HireMe = () => (
   <Layout title='Hire Me'>
     <p>
-      You can hire me at
+      You can hire me at{' '}
       <a href='mailto:expertcoder@gmail.com'>expertcoderATgmailDOTcom</a>
     </p>
   </Layout>
