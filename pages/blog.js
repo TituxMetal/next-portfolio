@@ -1,12 +1,11 @@
 import Link from 'next/link'
 
 import Layout from '../components/Layout'
-import { ucFirst } from '../utils/string'
 
 const PostLink = ({ title, slug }) => (
   <li>
     <Link as={slug} href={`/post?title=${title}`}>
-      <a>{ucFirst(title)}</a>
+      <a>{title}</a>
     </Link>
   </li>
 )

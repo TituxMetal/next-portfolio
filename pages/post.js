@@ -1,14 +1,13 @@
 import { withRouter } from 'next/router'
 
 import Layout from '../components/Layout'
-import { ucFirst } from '../utils/string'
 
 const Post = ({
   router: {
     query: { title }
   }
 }) => (
-  <Layout title={ucFirst(title)}>
+  <Layout title={title}>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, iure.
       Pariatur temporibus, quis minus doloribus eaque at facilis iste optio
