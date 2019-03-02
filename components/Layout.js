@@ -11,7 +11,7 @@ Router.onRouteChangeError = () => NProgress.done()
 const Layout = ({ children, title }) => (
   <>
     <Head>
-      <title>Next Portfolio{title && `- ${title}`}</title>
+      <title>Next Portfolio{title && ` - ${title}`}</title>
     </Head>
     <main className='root'>
       <header>
